@@ -1,0 +1,74 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "ConsoleApp/1.0.0": {
+        "dependencies": {
+          "CustomLib": "1.0.0",
+          "Google.Protobuf": "3.29.2",
+          "KRPC.Client": "0.5.4"
+        },
+        "runtime": {
+          "ConsoleApp.dll": {}
+        }
+      },
+      "Google.Protobuf/3.29.2": {
+        "runtime": {
+          "lib/net5.0/Google.Protobuf.dll": {
+            "assemblyVersion": "3.29.2.0",
+            "fileVersion": "3.29.2.0"
+          }
+        }
+      },
+      "KRPC.Client/0.5.4": {
+        "dependencies": {
+          "Google.Protobuf": "3.29.2"
+        },
+        "runtime": {
+          "lib/net45/KRPC.Client.dll": {
+            "assemblyVersion": "0.5.4.0",
+            "fileVersion": "0.5.4.0"
+          }
+        }
+      },
+      "CustomLib/1.0.0": {
+        "runtime": {
+          "CustomLib.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Google.Protobuf/3.29.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-98gc5v6WTfvfo6nXXUFyXOwwfehUGVn4tIis3AnCZabur8t6Eq0lo4eloWEYpdxPH9MrhnbAzHcMwPCS8lCWoQ==",
+      "path": "google.protobuf/3.29.2",
+      "hashPath": "google.protobuf.3.29.2.nupkg.sha512"
+    },
+    "KRPC.Client/0.5.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4T61kd9Lyq8LFTa/hqmLZ3zs3bgUtLLphXGcPiBcXNfe60oGc2S4wvsRk32za0x/tcB6rVVRRp3z2d9qtxCDAw==",
+      "path": "krpc.client/0.5.4",
+      "hashPath": "krpc.client.0.5.4.nupkg.sha512"
+    },
+    "CustomLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

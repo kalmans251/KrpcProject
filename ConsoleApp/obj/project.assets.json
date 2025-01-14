@@ -1,0 +1,177 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "Google.Protobuf/3.29.2": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Google.Protobuf.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Google.Protobuf.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "KRPC.Client/0.5.4": {
+        "type": "package",
+        "dependencies": {
+          "Google.Protobuf": "3.22.0"
+        },
+        "compile": {
+          "lib/net45/KRPC.Client.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/KRPC.Client.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CustomLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/CustomLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CustomLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Google.Protobuf/3.29.2": {
+      "sha512": "98gc5v6WTfvfo6nXXUFyXOwwfehUGVn4tIis3AnCZabur8t6Eq0lo4eloWEYpdxPH9MrhnbAzHcMwPCS8lCWoQ==",
+      "type": "package",
+      "path": "google.protobuf/3.29.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "google.protobuf.3.29.2.nupkg.sha512",
+        "google.protobuf.nuspec",
+        "lib/net45/Google.Protobuf.dll",
+        "lib/net45/Google.Protobuf.pdb",
+        "lib/net45/Google.Protobuf.xml",
+        "lib/net5.0/Google.Protobuf.dll",
+        "lib/net5.0/Google.Protobuf.pdb",
+        "lib/net5.0/Google.Protobuf.xml",
+        "lib/netstandard1.1/Google.Protobuf.dll",
+        "lib/netstandard1.1/Google.Protobuf.pdb",
+        "lib/netstandard1.1/Google.Protobuf.xml",
+        "lib/netstandard2.0/Google.Protobuf.dll",
+        "lib/netstandard2.0/Google.Protobuf.pdb",
+        "lib/netstandard2.0/Google.Protobuf.xml"
+      ]
+    },
+    "KRPC.Client/0.5.4": {
+      "sha512": "4T61kd9Lyq8LFTa/hqmLZ3zs3bgUtLLphXGcPiBcXNfe60oGc2S4wvsRk32za0x/tcB6rVVRRp3z2d9qtxCDAw==",
+      "type": "package",
+      "path": "krpc.client/0.5.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "krpc.client.0.5.4.nupkg.sha512",
+        "krpc.client.nuspec",
+        "lib/net45/KRPC.Client.dll",
+        "lib/net45/KRPC.Client.xml"
+      ]
+    },
+    "CustomLib/1.0.0": {
+      "type": "project",
+      "path": "../CustomLib/CustomLib.csproj",
+      "msbuildProject": "../CustomLib/CustomLib.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "CustomLib >= 1.0.0",
+      "Google.Protobuf >= 3.29.2",
+      "KRPC.Client >= 0.5.4"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\2070Ti\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\C#\\KrpcProject\\ConsoleApp\\ConsoleApp.csproj",
+      "projectName": "ConsoleApp",
+      "projectPath": "C:\\C#\\KrpcProject\\ConsoleApp\\ConsoleApp.csproj",
+      "packagesPath": "C:\\Users\\2070Ti\\.nuget\\packages\\",
+      "outputPath": "C:\\C#\\KrpcProject\\ConsoleApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\2070Ti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://www.nuget.org/api/v2/": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "C:\\C#\\KrpcProject\\CustomLib\\CustomLib.csproj": {
+              "projectPath": "C:\\C#\\KrpcProject\\CustomLib\\CustomLib.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "noWarn": [
+          "NU1701"
+        ],
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "dependencies": {
+          "Google.Protobuf": {
+            "target": "Package",
+            "version": "[3.29.2, )"
+          },
+          "KRPC.Client": {
+            "target": "Package",
+            "version": "[0.5.4, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

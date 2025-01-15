@@ -18,3 +18,4 @@ C:\C#\KrpcProject\ConsoleApp\obj\Debug\net9.0\ConsoleApp.genruntimeconfig.cache
 C:\C#\KrpcProject\ConsoleApp\obj\Debug\net9.0\ref\ConsoleApp.dll
 C:\C#\KrpcProject\ConsoleApp\bin\Debug\net9.0\CustomLib.dll
 C:\C#\KrpcProject\ConsoleApp\bin\Debug\net9.0\CustomLib.pdb
+C:\C#\KrpcProject\ConsoleApp\obj\Debug\net9.0\ConsoleApp.sourcelink.json

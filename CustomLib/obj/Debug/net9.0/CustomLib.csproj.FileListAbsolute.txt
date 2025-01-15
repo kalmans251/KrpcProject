@@ -9,3 +9,4 @@ C:\C#\KrpcProject\CustomLib\obj\Debug\net9.0\CustomLib.dll
 C:\C#\KrpcProject\CustomLib\obj\Debug\net9.0\refint\CustomLib.dll
 C:\C#\KrpcProject\CustomLib\obj\Debug\net9.0\CustomLib.pdb
 C:\C#\KrpcProject\CustomLib\obj\Debug\net9.0\ref\CustomLib.dll
+C:\C#\KrpcProject\CustomLib\obj\Debug\net9.0\CustomLib.sourcelink.json
